@@ -1,10 +1,13 @@
 package app.vercel.three.coral.app.ecommerce.utilities;
 
 import app.vercel.three.coral.app.ecommerce.*;
-import app.vercel.three.coral.app.ecommerce.checkout.page.invalidscenarios.*;
-import app.vercel.three.coral.app.ecommerce.checkout.page.validscenarios.CheckoutPageValidInput;
-import app.vercel.three.coral.app.ecommerce.signin.page.invalidscenarios.*;
-import app.vercel.three.coral.app.ecommerce.signup.page.invalidscenarios.SignUpPageInvalidSingularInput;
+import app.vercel.three.coral.app.ecommerce.checkout.page.invalid.scenarios.CheckoutPageInvalidSingularInputFormat;
+import app.vercel.three.coral.app.ecommerce.checkout.page.invalid.scenarios.CheckoutPageNoSingularInput;
+import app.vercel.three.coral.app.ecommerce.checkout.page.invalid.scenarios.CheckoutPageTooLongSingularInput;
+import app.vercel.three.coral.app.ecommerce.checkout.page.invalid.scenarios.CheckoutPageTooShortSingularInput;
+import app.vercel.three.coral.app.ecommerce.checkout.page.valid.scenarios.CheckoutPageValidInput;
+import app.vercel.three.coral.app.ecommerce.signin.page.invalid.scenarios.SignInPageInvalidSingularInput;
+import app.vercel.three.coral.app.ecommerce.signup.page.invalid.scenarios.SignUpPageInvalidSingularInput;
 import app.vercel.three.coral.app.ecommerce.modals.*;
 
 import app.vercel.three.coral.app.ecommerce.page.data.loggers.*;

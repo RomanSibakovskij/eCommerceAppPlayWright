@@ -1,4 +1,4 @@
-package app.vercel.three.coral.app.ecommerce.signup.page.invalidscenarios;
+package app.vercel.three.coral.app.ecommerce.signup.page.invalid.scenarios;
 
 import app.vercel.three.coral.app.ecommerce.utilities.*;
 import com.microsoft.playwright.*;

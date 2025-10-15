@@ -1,4 +1,4 @@
-package app.vercel.three.coral.app.ecommerce.signin.page.invalidscenarios;
+package app.vercel.three.coral.app.ecommerce.signin.page.invalid.scenarios;
 
 import app.vercel.three.coral.app.ecommerce.utilities.BasePage;
 import app.vercel.three.coral.app.ecommerce.SignUpPage;
