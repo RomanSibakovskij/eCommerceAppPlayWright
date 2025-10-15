@@ -100,7 +100,7 @@ public class ShoppingCartPage extends BasePage {
         emptyShoppingCartPageTitle = page.locator("//div[@class='MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 css-1hy22ya']/h4");
         emptyShoppingCartPageDesc = page.locator("//div[@class='MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 css-1hy22ya']/p");
         emptyShoppingCartPageBrowseProductsBtn = page.locator("//div[@class='MuiBox-root css-hi8lfv']/button[1]");
-        emptyShoppingCartPageGoBackBtn = page.locator("//div[@class='MuiBox-root css-hi8lfv']/button[1]");
+        emptyShoppingCartPageGoBackBtn = page.locator("//div[@class='MuiBox-root css-hi8lfv']/button[2]");
 
     }
 

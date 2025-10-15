@@ -1047,8 +1047,8 @@ public class TestMethods extends BaseTest implements PageWebElementAsserts, Page
         GeneralPage generalPage = new GeneralPage(page);
         SignUpPage signUpPage = new SignUpPage(page);
         SignInPage signInPage = new SignInPage(page);
-        //wait for elements to load
-        basePage.waitForPageLoad(3000);
+        //wait for elements to load (explicit wait doesn't seem to work here)
+        page.waitForTimeout(3000);
         //general page text element assert
         isGeneralPageTextElementAsExpected(page);
         //general page (guest view) web element assert
@@ -1114,8 +1114,8 @@ public class TestMethods extends BaseTest implements PageWebElementAsserts, Page
         SignUpPage signUpPage = new SignUpPage(page);
         SignInPage signInPage = new SignInPage(page);
         SignInPageInvalidSingularInput signInPageInvalidSingularInput = new SignInPageInvalidSingularInput(page);
-        //wait for elements to load
-        basePage.waitForPageLoad(3000);
+        //wait for elements to load (explicit wait doesn't seem to work here)
+        page.waitForTimeout(3000);
         //general page text element assert
         isGeneralPageTextElementAsExpected(page);
         //general page (guest view) web element assert
@@ -1167,8 +1167,8 @@ public class TestMethods extends BaseTest implements PageWebElementAsserts, Page
         SignUpPage signUpPage = new SignUpPage(page);
         SignInPage signInPage = new SignInPage(page);
         SignInPageInvalidSingularInput signInPageInvalidSingularInput = new SignInPageInvalidSingularInput(page);
-        //wait for elements to load
-        basePage.waitForPageLoad(3000);
+        //wait for elements to load (explicit wait doesn't seem to work here)
+        page.waitForTimeout(3000);
         //general page text element assert
         isGeneralPageTextElementAsExpected(page);
         //general page (guest view) web element assert
@@ -1220,8 +1220,8 @@ public class TestMethods extends BaseTest implements PageWebElementAsserts, Page
         SignUpPage signUpPage = new SignUpPage(page);
         SignInPage signInPage = new SignInPage(page);
         SignInPageInvalidSingularInput signInPageInvalidSingularInput = new SignInPageInvalidSingularInput(page);
-        //wait for elements to load
-        basePage.waitForPageLoad(3000);
+        //wait for elements to load (explicit wait doesn't seem to work here)
+        page.waitForTimeout(3000);
         //general page text element assert
         isGeneralPageTextElementAsExpected(page);
         //general page (guest view) web element assert
@@ -1273,8 +1273,8 @@ public class TestMethods extends BaseTest implements PageWebElementAsserts, Page
         SignUpPage signUpPage = new SignUpPage(page);
         SignInPage signInPage = new SignInPage(page);
         SignInPageInvalidSingularInput signInPageInvalidSingularInput = new SignInPageInvalidSingularInput(page);
-        //wait for elements to load
-        basePage.waitForPageLoad(3000);
+        //wait for elements to load (explicit wait doesn't seem to work here)
+        page.waitForTimeout(3000);
         //general page text element assert
         isGeneralPageTextElementAsExpected(page);
         //general page (guest view) web element assert
@@ -1326,8 +1326,8 @@ public class TestMethods extends BaseTest implements PageWebElementAsserts, Page
         SignUpPage signUpPage = new SignUpPage(page);
         SignInPage signInPage = new SignInPage(page);
         SignInPageInvalidSingularInput signInPageInvalidSingularInput = new SignInPageInvalidSingularInput(page);
-        //wait for elements to load
-        basePage.waitForPageLoad(3000);
+        //wait for elements to load (explicit wait doesn't seem to work here)
+        page.waitForTimeout(3000);
         //general page text element assert
         isGeneralPageTextElementAsExpected(page);
         //general page (guest view) web element assert
